@@ -26,7 +26,7 @@ public class MainActivity extends Activity implements View.OnClickListener,Radio
 
     @Override
     public void onClick(View v) {
-        if(v.getId()==R.id.tv_hello){//点击控制Popupwindow生成显示与隐藏
+        if(v.getId()==R.id.tv_hello){//点击控制Popupwindow生成显示与隐藏，无法提交git怎么回事
             if(null!=suozaidiPopupWindow){
                 if(suozaidiPopupWindow.isShowing()){
                     suozaidiPopupWindow.dismiss();//Popupwindow消失
